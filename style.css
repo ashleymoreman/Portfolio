@@ -7,6 +7,11 @@ header {
   height: 137px;
   }
 
+.header_logo1{
+  padding-left: 5px;
+}
+
+
 hr {
     height: 15px;
     background-color: #30bebc;
@@ -50,3 +55,20 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+
+
+@media screen and (min-width: 800px) {
+  footer {
+    display: grid;
+    /* removed grid-column-gap it causes a horizontal scroll
+    grid-column-gap: 10px;
+    */
+    grid-template-columns: 50% 50%;
+  }
+
+
+    ] @media screen and (min-width: 1024px) {
+      header {
+        grid-template-columns: 25% 50% 25%;
+      }
