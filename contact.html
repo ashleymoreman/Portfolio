@@ -17,20 +17,28 @@
 
 </head>
 
+
 <body>
   <header>
     <div class="header_logo1"></div>
     <img src="Images/Resume2018V2-03.png" alt="My Logo">
 
 
+
+
+  </header>
+
+
+
       <div class="topnav" id="myTopnav">
-        <a href="index.html" >Work</a>
+        <a href="index.html">Work</a>
         <a href="about.html">About</a>
         <a href="resume.html">Resume</a>
-        <a href="contact.html"class="active">Contact</a>
+        <a href="contact.html" class="active">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+        <i class="fa fa-bars"></i>
+
+      </a>
       </div>
 
 
@@ -41,24 +49,28 @@
 
         <form action="response.html" method="post">
           <div class="form-group">
-            <label for="contactName"> Full Name</lable>
+            <label for="contactName"> Full Name
+            <input type="text" name="name" id="contactName" placeholder="First Name Last Name">
 
-              <input type="text" name="name" value="" id="contactName" id="contactName" placeholder="First Name Last Name">
-
-
+</label>
 
 
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
             </div>
+            <label for="comments">Comments </label>
+
+<br>
 
 
-          </div>
 
+          <textarea name="comments" rows="10">
 
-          <textarea name="comments" col="80" rows="10">
           </textarea>
+
+  </div>
+
   <br>
           <button type="submit" class="btn btn-primary">Submit</button>
 
