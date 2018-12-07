@@ -47,6 +47,7 @@ font-family: 'Avenir', sans-serif;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
+
 }
 
 header {
@@ -71,8 +72,18 @@ hr {
 }
 
 
+.resumeContainer {
+width:50%;
+margin:0 auto;
+}
 
 
+
+
+.resumeContainer img{
+  width: 100%;
+  height: auto;
+}
 
 
 .socialMedia a {
@@ -174,6 +185,14 @@ footer{
     display: block;
     text-align: left;
   }
+  .resume {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+  }
+
 }
 
 
